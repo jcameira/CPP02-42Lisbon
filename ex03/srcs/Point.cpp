@@ -6,7 +6,7 @@
 /*   By: jcameira <jcameira@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/15 18:49:55 by jcameira          #+#    #+#             */
-/*   Updated: 2024/11/15 19:39:27 by jcameira         ###   ########.fr       */
+/*   Updated: 2024/11/16 22:38:00 by jcameira         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -25,6 +25,7 @@ Point::~Point( void ) {
 }
 
 Point   &Point::operator=( const Point &obj ) {
+    (void)obj;
     return ( *this );
 }
 
