@@ -6,7 +6,7 @@
 /*   By: jcameira <jcameira@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/12 16:55:07 by jcameira          #+#    #+#             */
-/*   Updated: 2024/11/13 14:38:53 by jcameira         ###   ########.fr       */
+/*   Updated: 2024/11/16 16:24:30 by jcameira         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -18,7 +18,7 @@
 # include <string>
 # include <iomanip>
 
-class Fixed{
+class Fixed {
     public:
         Fixed( void );
         Fixed( int nbr );
@@ -38,6 +38,6 @@ class Fixed{
         
 };
 
-std::ostream &operator<<(std::ostream &out, const Fixed &fixed);
+std::ostream &operator<<( std::ostream &out, const Fixed &fixed );
 
 #endif

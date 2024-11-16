@@ -6,13 +6,13 @@
 /*   By: jcameira <jcameira@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/13 14:54:02 by jcameira          #+#    #+#             */
-/*   Updated: 2024/11/13 15:06:05 by jcameira         ###   ########.fr       */
+/*   Updated: 2024/11/16 16:23:57 by jcameira         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include <Fixed.hpp>
 
-int main(){
+int main() {
     Fixed a;
     Fixed const b( 10 );
     Fixed const c( 42.42f );
